@@ -1,0 +1,126 @@
+.mail_body{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    flex:0.20;
+}
+
+.sidebar_options{
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.sidebar_composeBtn{
+    border: 1px solid #ccc;
+    border-radius: 99px;
+    justify-content: space-between;
+    height: 50px;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 5px #ccc;
+    display: inline-flex;
+    align-items: center;
+    width: 120px;
+    padding: 1px 20px;
+}
+
+.sidebar_composeBtn span{
+    font-weight: bold;
+    margin-left: 3px;   
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 0px 50px 50px 0px;
+    font-size: 14px;
+
+}
+.option a{
+    display: flex;
+    align-items: center;
+    text-transform: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.option:hover{
+    background: whitesmoke;
+    cursor: pointer;
+}
+
+.option svg{
+    margin-right: 10px;
+    font-size: 20px;
+    color: grey;
+}
+.option_active{
+    background: tomato;
+    color: #e82c2c;
+    font-weight: bold;
+}
+
+.option_active svg{
+    color: #e82c2c;
+}
+
+.option_active span{
+    color: #e82c2c;
+}
+
+.sidebar_options::-webkit-scrollbar{
+    width: 8px;
+    border: 0px transparent solid;
+}
+
+.sidebar_options::-webkit-scrollbar-thumb{
+background-color: transparent;
+height: 20px;
+}
+
+.sidebar_options::-webkit-scrollbar-thumb:hover{
+background: grey !important;
+}
+
+.sidebar_options:hover::-webkit-scrollbar-thumb{
+background: grey !important;
+}
+
+
+.sidebar_options:hover::-webkit-scrollbar{
+border: 1px solid#ccc;
+
+}
+    
+.sidebar_options h4 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.hangoutoptions{
+    align-items :center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin: 10px;
+}
+.hangoutoptions_left{
+    display: flex;
+    align-items: center;
+}
+.hangoutoptions_left .BiVideo{
+    width: 30px;
+    height: 30px;
+    margin-right: 14px;
+}
+.hangoutoptions_left span{
+    font-size: 14px;
+}

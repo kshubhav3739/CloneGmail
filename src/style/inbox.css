@@ -1,0 +1,121 @@
+.mail_body_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
+    border-bottom: 1px solid rgb(235,235,235);
+    padding: 10px;
+    
+}
+
+.left_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    color:rgb(107 , 107,107)
+}
+
+.left_icon svg{
+    margin-right: 10px;
+}
+
+.checkbox svg{
+    margin-right: 20px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+
+.right_icon{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.right_icon span{
+margin-right: 10px;}
+
+.inbox{
+    display: flex;
+    flex: 0.9;
+    flex-direction: column;
+}
+
+.mail_body_tabs{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    align-items: center;
+    border-bottom: 1px solid rgb(235,235,235);
+
+}
+.tabs_inner{
+    padding: 15px 10px;
+    margin :0px 10px;
+    display: flex;;
+    align-items: center;
+    font-weight: bold;
+    color: grey;
+    transition: all 0.3s linear 0s;
+
+}
+
+.tabs_inner:hover{
+    background-color: #f1f3f4;
+    cursor: pointer;
+}
+
+.tabs_inner svg{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+
+.active_tab{
+    border-bottom: 3px solid #d93025;
+    color: #d93025 !important;
+}
+
+/* email CLasses */
+
+
+.email{
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 250px 550px auto;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(204 204 204/52%);
+    transition: all 0.2s linear 0s;
+}
+.email:hover{
+    box-shadow: 2px 2px 4px #ccc;
+    cursor:pointer;
+}
+.email:hover svg{
+color: grey !important;
+}
+
+
+.email_left{
+    display:flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.email_left svg{
+    color:lightgrey;
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.email_right{
+    font-weight: bold;;
+    font-size:12px;
+}
